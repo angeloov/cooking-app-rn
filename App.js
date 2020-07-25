@@ -20,7 +20,7 @@ import CookHeader from './components/CookHeader';
 import Recipe from './components/Recipe';
 
 const App = () => {
-  const STATUSBAR_HEIGHT = Platform.OS === 'ios' ? 0 : StatusBarManager.HEIGHT;
+  const STATUSBAR_HEIGHT = Platform.OS === 'ios' ? 0 : StatusBar.currentHeight;
   return (
     <SafeAreaView style={{marginTop: STATUSBAR_HEIGHT}}>
       <CookHeader />

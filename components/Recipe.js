@@ -37,7 +37,6 @@ const styles = StyleSheet.create({
     borderColor: 'black',
   },
   recipeContainer: {
-    paddingTop: 10,
     marginLeft: 5,
     marginRight: 5,
     flex: 1,
@@ -53,7 +52,6 @@ const styles = StyleSheet.create({
     fontSize: 25,
     fontFamily: 'Poppins-Bold',
     textAlign: 'center',
-    marginBottom: 10,
   },
   recipeDescription: {
     color: 'black',
@@ -62,6 +60,7 @@ const styles = StyleSheet.create({
   },
   recipeDescriptionView: {
     marginLeft: 10,
+    marginRight: 10,
     width: '70%',
   },
 });
