@@ -23,12 +23,10 @@ import CookHeader from './components/CookHeader';
 import Recipe from './components/Recipe';
 
 const App = () => {
-  const STATUSBAR_MARGIN = Platform.OS === 'ios' ? 0 : StatusBar.currentHeight;
-  let contentColor;
   return (
     <View>
       <View style={styles.statusBar}></View>
-      <SafeAreaView style={{marginTop: STATUSBAR_MARGIN}}>
+      <SafeAreaView>
         <StatusBar backgroundColor="#2980b9" barStyle="light-content" />
         <CookHeader />
         <View style={styles.recipesContainer}>
