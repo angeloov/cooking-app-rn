@@ -14,7 +14,6 @@ import {
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 
-import {getStatusBarHeight} from 'react-native-status-bar-height';
 import Recipe from '../Recipe';
 
 export default function HomeScreen({navigation}) {
