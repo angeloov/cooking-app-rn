@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* cookappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* cookappTests.m */; };
-		07DE6B7262BE427088CE2243 /* HelveticaNowDisplay-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 44058D42CA624F699B85813B /* HelveticaNowDisplay-Bold.otf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -16,19 +15,14 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* cookappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* cookappTests.m */; };
-		31AB156AE7C64EC68B3EB489 /* HelveticaNowDisplayRegular.otf in Resources */ = {isa = PBXBuildFile; fileRef = C56D03F666A2447DB6D39E99 /* HelveticaNowDisplayRegular.otf */; };
-		33D4C2E63BDD637965DFAE21 /* libPods-cookapp-cookappTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC2561F34B397705CE5FB742 /* libPods-cookapp-cookappTests.a */; };
-		49D0C26EC77899BC80B78F4C /* libPods-cookapp-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA70C19E082FB28B9CE046C7 /* libPods-cookapp-tvOSTests.a */; };
-		56354DA4C1F4668F6D3FED9A /* libPods-cookapp-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D67F484BE71FD268E543E9D /* libPods-cookapp-tvOS.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		829D3925F09D4668BF8DC1F8 /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C5E4B0BC8C0640E29FA4F2AE /* Poppins-Black.ttf */; };
+		8AD410B185FB2CCA8ED2F4BE /* libPods-cookapp-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E7835864F6213A709E22FC36 /* libPods-cookapp-tvOSTests.a */; };
 		9AD49C8FF2404BF790A0A9BA /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 199135C2CA684EA38697BE7F /* Poppins-Medium.ttf */; };
-		B4B7A724CC10D9C800497DB1 /* libPods-cookapp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C6FDCE9C1526C39B7B0535E6 /* libPods-cookapp.a */; };
-		BAFFB0723E2349CE8C1871FA /* HelveticaNowDisplayBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 66760632175B4688A9E87739 /* HelveticaNowDisplayBold.otf */; };
-		BD1234ABB1B24A4C900DCD2C /* HelveticaNowDisplayMedium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 93365B0E2E704FBDA04C5305 /* HelveticaNowDisplayMedium.otf */; };
 		CA01E7561C3346DCA996487F /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF4DF89681F843AC8CCCA94F /* Poppins-Regular.ttf */; };
-		D62DC42309BC4E3CA2308FAF /* HelveticaNowDisplay-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = F33E2ADA738A4C64AE999BD4 /* HelveticaNowDisplay-Medium.otf */; };
-		E11002EADB8745A9A03DF170 /* HelveticaNowDisplay-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = B3B8D678515440B183870E99 /* HelveticaNowDisplay-Regular.otf */; };
+		D26CC9B77D941B2F89759DD5 /* libPods-cookapp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BFFB1DD52702973E8149673E /* libPods-cookapp.a */; };
+		D77213332D68157969BCE0CA /* libPods-cookapp-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FBBAE9876FFC3E97BB697BD3 /* libPods-cookapp-tvOS.a */; };
+		E5D3AF9568A9D7463FB94D0B /* libPods-cookapp-cookappTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B126D32F1BE7959D2B91F5B8 /* libPods-cookapp-cookappTests.a */; };
 		FAE747780CC24EDBA61AC04E /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 629830CD60F04C80B4DE80FD /* Poppins-Bold.ttf */; };
 /* End PBXBuildFile section */
 
@@ -54,7 +48,8 @@
 		00E356EE1AD99517003FC87E /* cookappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cookappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* cookappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cookappTests.m; sourceTree = "<group>"; };
-		05B0FD832277A68E5DD8B649 /* Pods-cookapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cookapp.release.xcconfig"; path = "Target Support Files/Pods-cookapp/Pods-cookapp.release.xcconfig"; sourceTree = "<group>"; };
+		0338811684F2D682B2FE4AB1 /* Pods-cookapp-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cookapp-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-cookapp-tvOS/Pods-cookapp-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		0A1A6DBA007CF55750FBC9D0 /* Pods-cookapp-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cookapp-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-cookapp-tvOSTests/Pods-cookapp-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* cookapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cookapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = cookapp/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = cookapp/AppDelegate.m; sourceTree = "<group>"; };
@@ -62,31 +57,30 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = cookapp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = cookapp/main.m; sourceTree = "<group>"; };
 		199135C2CA684EA38697BE7F /* Poppins-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Medium.ttf"; path = "../assets/fonts/Poppins-Medium.ttf"; sourceTree = "<group>"; };
-		1A9595146CE0FC2D5058352F /* Pods-cookapp-cookappTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cookapp-cookappTests.release.xcconfig"; path = "Target Support Files/Pods-cookapp-cookappTests/Pods-cookapp-cookappTests.release.xcconfig"; sourceTree = "<group>"; };
-		29C5EA6162E6DBE9C3A8A3B7 /* Pods-cookapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cookapp.debug.xcconfig"; path = "Target Support Files/Pods-cookapp/Pods-cookapp.debug.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* cookapp-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cookapp-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* cookapp-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cookapp-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		398FB67538557E05378897AE /* Pods-cookapp-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cookapp-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-cookapp-tvOSTests/Pods-cookapp-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2E5B47A29A261A32563BBE8D /* Pods-cookapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cookapp.debug.xcconfig"; path = "Target Support Files/Pods-cookapp/Pods-cookapp.debug.xcconfig"; sourceTree = "<group>"; };
 		44058D42CA624F699B85813B /* HelveticaNowDisplay-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "HelveticaNowDisplay-Bold.otf"; path = "../assets/fonts/HelveticaNowDisplay-Bold.otf"; sourceTree = "<group>"; };
+		535011F8069758244B6136BD /* Pods-cookapp-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cookapp-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-cookapp-tvOSTests/Pods-cookapp-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		629830CD60F04C80B4DE80FD /* Poppins-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Bold.ttf"; path = "../assets/fonts/Poppins-Bold.ttf"; sourceTree = "<group>"; };
 		66760632175B4688A9E87739 /* HelveticaNowDisplayBold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = HelveticaNowDisplayBold.otf; path = ../assets/fonts/HelveticaNowDisplayBold.otf; sourceTree = "<group>"; };
-		6D67F484BE71FD268E543E9D /* libPods-cookapp-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-cookapp-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7149116A3C9F4F59E3F32FF8 /* Pods-cookapp-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cookapp-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-cookapp-tvOSTests/Pods-cookapp-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = cookapp/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		82C38EF3F2D5F0DC27D0CAB9 /* Pods-cookapp-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cookapp-tvOS.release.xcconfig"; path = "Target Support Files/Pods-cookapp-tvOS/Pods-cookapp-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		84B5D62163E57C7CA709FFB9 /* Pods-cookapp-cookappTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cookapp-cookappTests.debug.xcconfig"; path = "Target Support Files/Pods-cookapp-cookappTests/Pods-cookapp-cookappTests.debug.xcconfig"; sourceTree = "<group>"; };
 		93365B0E2E704FBDA04C5305 /* HelveticaNowDisplayMedium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = HelveticaNowDisplayMedium.otf; path = ../assets/fonts/HelveticaNowDisplayMedium.otf; sourceTree = "<group>"; };
-		AC2561F34B397705CE5FB742 /* libPods-cookapp-cookappTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-cookapp-cookappTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AE3DD0924D6131BCA98B047 /* Pods-cookapp-cookappTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cookapp-cookappTests.debug.xcconfig"; path = "Target Support Files/Pods-cookapp-cookappTests/Pods-cookapp-cookappTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B126D32F1BE7959D2B91F5B8 /* libPods-cookapp-cookappTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-cookapp-cookappTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3B8D678515440B183870E99 /* HelveticaNowDisplay-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "HelveticaNowDisplay-Regular.otf"; path = "../assets/fonts/HelveticaNowDisplay-Regular.otf"; sourceTree = "<group>"; };
+		BFFB1DD52702973E8149673E /* libPods-cookapp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-cookapp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C56D03F666A2447DB6D39E99 /* HelveticaNowDisplayRegular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = HelveticaNowDisplayRegular.otf; path = ../assets/fonts/HelveticaNowDisplayRegular.otf; sourceTree = "<group>"; };
+		C594E6593754962ACE2B570F /* Pods-cookapp-cookappTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cookapp-cookappTests.release.xcconfig"; path = "Target Support Files/Pods-cookapp-cookappTests/Pods-cookapp-cookappTests.release.xcconfig"; sourceTree = "<group>"; };
 		C5E4B0BC8C0640E29FA4F2AE /* Poppins-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Black.ttf"; path = "../assets/fonts/Poppins-Black.ttf"; sourceTree = "<group>"; };
-		C6FDCE9C1526C39B7B0535E6 /* libPods-cookapp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-cookapp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CA70C19E082FB28B9CE046C7 /* libPods-cookapp-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-cookapp-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD7D7AF7BC46DAD026E4E7F6 /* Pods-cookapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cookapp.release.xcconfig"; path = "Target Support Files/Pods-cookapp/Pods-cookapp.release.xcconfig"; sourceTree = "<group>"; };
 		DF4DF89681F843AC8CCCA94F /* Poppins-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Regular.ttf"; path = "../assets/fonts/Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		E7835864F6213A709E22FC36 /* libPods-cookapp-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-cookapp-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		F230ACC4D9E68221AE5B15F2 /* Pods-cookapp-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cookapp-tvOS.release.xcconfig"; path = "Target Support Files/Pods-cookapp-tvOS/Pods-cookapp-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		F33E2ADA738A4C64AE999BD4 /* HelveticaNowDisplay-Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "HelveticaNowDisplay-Medium.otf"; path = "../assets/fonts/HelveticaNowDisplay-Medium.otf"; sourceTree = "<group>"; };
-		F62886C099B5DA449F7F90A9 /* Pods-cookapp-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cookapp-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-cookapp-tvOS/Pods-cookapp-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		FBBAE9876FFC3E97BB697BD3 /* libPods-cookapp-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-cookapp-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33D4C2E63BDD637965DFAE21 /* libPods-cookapp-cookappTests.a in Frameworks */,
+				E5D3AF9568A9D7463FB94D0B /* libPods-cookapp-cookappTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,7 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4B7A724CC10D9C800497DB1 /* libPods-cookapp.a in Frameworks */,
+				D26CC9B77D941B2F89759DD5 /* libPods-cookapp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,7 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56354DA4C1F4668F6D3FED9A /* libPods-cookapp-tvOS.a in Frameworks */,
+				D77213332D68157969BCE0CA /* libPods-cookapp-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,7 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49D0C26EC77899BC80B78F4C /* libPods-cookapp-tvOSTests.a in Frameworks */,
+				8AD410B185FB2CCA8ED2F4BE /* libPods-cookapp-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,10 +155,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				C6FDCE9C1526C39B7B0535E6 /* libPods-cookapp.a */,
-				AC2561F34B397705CE5FB742 /* libPods-cookapp-cookappTests.a */,
-				6D67F484BE71FD268E543E9D /* libPods-cookapp-tvOS.a */,
-				CA70C19E082FB28B9CE046C7 /* libPods-cookapp-tvOSTests.a */,
+				BFFB1DD52702973E8149673E /* libPods-cookapp.a */,
+				B126D32F1BE7959D2B91F5B8 /* libPods-cookapp-cookappTests.a */,
+				FBBAE9876FFC3E97BB697BD3 /* libPods-cookapp-tvOS.a */,
+				E7835864F6213A709E22FC36 /* libPods-cookapp-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -202,7 +196,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				733C7A4FBF6F45E9949BA41B /* Resources */,
-				DD78F06B6F55910B7A0F6583 /* Pods */,
+				92A1085EDFB0C650FEFD0656 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -220,19 +214,18 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DD78F06B6F55910B7A0F6583 /* Pods */ = {
+		92A1085EDFB0C650FEFD0656 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				29C5EA6162E6DBE9C3A8A3B7 /* Pods-cookapp.debug.xcconfig */,
-				05B0FD832277A68E5DD8B649 /* Pods-cookapp.release.xcconfig */,
-				84B5D62163E57C7CA709FFB9 /* Pods-cookapp-cookappTests.debug.xcconfig */,
-				1A9595146CE0FC2D5058352F /* Pods-cookapp-cookappTests.release.xcconfig */,
-				F62886C099B5DA449F7F90A9 /* Pods-cookapp-tvOS.debug.xcconfig */,
-				82C38EF3F2D5F0DC27D0CAB9 /* Pods-cookapp-tvOS.release.xcconfig */,
-				398FB67538557E05378897AE /* Pods-cookapp-tvOSTests.debug.xcconfig */,
-				7149116A3C9F4F59E3F32FF8 /* Pods-cookapp-tvOSTests.release.xcconfig */,
+				2E5B47A29A261A32563BBE8D /* Pods-cookapp.debug.xcconfig */,
+				DD7D7AF7BC46DAD026E4E7F6 /* Pods-cookapp.release.xcconfig */,
+				9AE3DD0924D6131BCA98B047 /* Pods-cookapp-cookappTests.debug.xcconfig */,
+				C594E6593754962ACE2B570F /* Pods-cookapp-cookappTests.release.xcconfig */,
+				0338811684F2D682B2FE4AB1 /* Pods-cookapp-tvOS.debug.xcconfig */,
+				F230ACC4D9E68221AE5B15F2 /* Pods-cookapp-tvOS.release.xcconfig */,
+				535011F8069758244B6136BD /* Pods-cookapp-tvOSTests.debug.xcconfig */,
+				0A1A6DBA007CF55750FBC9D0 /* Pods-cookapp-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -243,11 +236,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "cookappTests" */;
 			buildPhases = (
-				ECE4224BF9D45D27C279D1B6 /* [CP] Check Pods Manifest.lock */,
+				7905FBFF4A7AB314711BC714 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				DEDF1371C4365705BF0051B6 /* [CP] Copy Pods Resources */,
+				5D2080BC3A0118990407DA8F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -263,13 +256,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "cookapp" */;
 			buildPhases = (
-				CD40334304843BF2207FD661 /* [CP] Check Pods Manifest.lock */,
+				B86247CCE21E08F28A2EF5AD /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				56088364F244F83600D4EC9D /* [CP] Copy Pods Resources */,
+				308C24BC680A20184F467169 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -284,7 +277,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "cookapp-tvOS" */;
 			buildPhases = (
-				4E0C995A3348A5CFF2FCA139 /* [CP] Check Pods Manifest.lock */,
+				D75037E9AEF89F1BA6371C26 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -304,7 +297,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "cookapp-tvOSTests" */;
 			buildPhases = (
-				A44E5F45D29BA34856C37733 /* [CP] Check Pods Manifest.lock */,
+				C03EA725C6C288A73A2119D7 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -381,12 +374,6 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				07DE6B7262BE427088CE2243 /* HelveticaNowDisplay-Bold.otf in Resources */,
-				D62DC42309BC4E3CA2308FAF /* HelveticaNowDisplay-Medium.otf in Resources */,
-				E11002EADB8745A9A03DF170 /* HelveticaNowDisplay-Regular.otf in Resources */,
-				BAFFB0723E2349CE8C1871FA /* HelveticaNowDisplayBold.otf in Resources */,
-				BD1234ABB1B24A4C900DCD2C /* HelveticaNowDisplayMedium.otf in Resources */,
-				31AB156AE7C64EC68B3EB489 /* HelveticaNowDisplayRegular.otf in Resources */,
 				829D3925F09D4668BF8DC1F8 /* Poppins-Black.ttf in Resources */,
 				FAE747780CC24EDBA61AC04E /* Poppins-Bold.ttf in Resources */,
 				9AD49C8FF2404BF790A0A9BA /* Poppins-Medium.ttf in Resources */,
@@ -440,29 +427,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		4E0C995A3348A5CFF2FCA139 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-cookapp-tvOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		56088364F244F83600D4EC9D /* [CP] Copy Pods Resources */ = {
+		308C24BC680A20184F467169 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -480,7 +445,25 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-cookapp/Pods-cookapp-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A44E5F45D29BA34856C37733 /* [CP] Check Pods Manifest.lock */ = {
+		5D2080BC3A0118990407DA8F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cookapp-cookappTests/Pods-cookapp-cookappTests-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-cookapp-cookappTests/Pods-cookapp-cookappTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7905FBFF4A7AB314711BC714 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -495,14 +478,14 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-cookapp-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-cookapp-cookappTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		CD40334304843BF2207FD661 /* [CP] Check Pods Manifest.lock */ = {
+		B86247CCE21E08F28A2EF5AD /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -524,25 +507,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DEDF1371C4365705BF0051B6 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-cookapp-cookappTests/Pods-cookapp-cookappTests-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-cookapp-cookappTests/Pods-cookapp-cookappTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		ECE4224BF9D45D27C279D1B6 /* [CP] Check Pods Manifest.lock */ = {
+		C03EA725C6C288A73A2119D7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -557,7 +522,29 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-cookapp-cookappTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-cookapp-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D75037E9AEF89F1BA6371C26 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cookapp-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -657,7 +644,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 84B5D62163E57C7CA709FFB9 /* Pods-cookapp-cookappTests.debug.xcconfig */;
+			baseConfigurationReference = 9AE3DD0924D6131BCA98B047 /* Pods-cookapp-cookappTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -680,7 +667,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A9595146CE0FC2D5058352F /* Pods-cookapp-cookappTests.release.xcconfig */;
+			baseConfigurationReference = C594E6593754962ACE2B570F /* Pods-cookapp-cookappTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -700,7 +687,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 29C5EA6162E6DBE9C3A8A3B7 /* Pods-cookapp.debug.xcconfig */;
+			baseConfigurationReference = 2E5B47A29A261A32563BBE8D /* Pods-cookapp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -724,7 +711,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 05B0FD832277A68E5DD8B649 /* Pods-cookapp.release.xcconfig */;
+			baseConfigurationReference = DD7D7AF7BC46DAD026E4E7F6 /* Pods-cookapp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -746,7 +733,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F62886C099B5DA449F7F90A9 /* Pods-cookapp-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 0338811684F2D682B2FE4AB1 /* Pods-cookapp-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -774,7 +761,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 82C38EF3F2D5F0DC27D0CAB9 /* Pods-cookapp-tvOS.release.xcconfig */;
+			baseConfigurationReference = F230ACC4D9E68221AE5B15F2 /* Pods-cookapp-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -802,7 +789,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 398FB67538557E05378897AE /* Pods-cookapp-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 535011F8069758244B6136BD /* Pods-cookapp-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -829,7 +816,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7149116A3C9F4F59E3F32FF8 /* Pods-cookapp-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 0A1A6DBA007CF55750FBC9D0 /* Pods-cookapp-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;

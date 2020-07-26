@@ -1,5 +1,9 @@
 import React, {Component} from 'react';
 import {View, Text, StyleSheet, Image} from 'react-native';
+import {
+  widthPercentageToDP as wp,
+  heightPercentageToDP as hp,
+} from 'react-native-responsive-screen';
 
 class Recipe extends Component {
   constructor() {
@@ -10,7 +14,7 @@ class Recipe extends Component {
       <View style={styles.containter}>
         <View style={styles.recipeContainer}>
           <Text style={styles.recipeTitle}>{this.props.plateName}</Text>
-          <View style={{flex: 1, flexDirection: 'row'}}>
+          <View style={styles.innerContainer}>
             <Image source={{uri: this.props.image}} style={styles.plateImage} />
             <View style={styles.recipeDescriptionView}>
               <Text style={styles.recipeDescription}>
@@ -26,9 +30,10 @@ class Recipe extends Component {
 
 const styles = StyleSheet.create({
   containter: {
-    flex: 0.3,
-    flexDirection: 'column',
-    alignItems: 'stretch',
+    //flex: 1,
+    //flexDirection: 'column',
+    //alignItems: 'stretch',
+    height: hp("20%"),
     marginLeft: 5,
     marginRight: 5,
     marginBottom: 10,
@@ -37,10 +42,17 @@ const styles = StyleSheet.create({
     borderColor: 'black',
   },
   recipeContainer: {
+    marginTop: 10,
     marginLeft: 5,
     marginRight: 5,
     flex: 1,
     justifyContent: 'center',
+    alignItems: "center"
+  },
+  innerContainer: {
+    flex: 1,
+    flexDirection: 'row',
+    marginTop: 10,
   },
   plateImage: {
     height: 100,
@@ -55,7 +67,7 @@ const styles = StyleSheet.create({
   },
   recipeDescription: {
     color: 'black',
-    fontSize: 20,
+    fontSize: 19,
     fontFamily: 'Poppins-Medium',
   },
   recipeDescriptionView: {
