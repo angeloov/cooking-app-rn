@@ -1,15 +1,21 @@
 import React from 'react';
-import {View, Text, StyleSheet, Button} from 'react-native';
+import {View, Text, StyleSheet, Button, Image} from 'react-native';
 
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 
-
-export default function DetailsScreen({ navigation }) {
+export default function DetailsScreen({navigation}) {
   return (
     <View style={styles.detailsView}>
-      <Text>Details Page</Text>
-      <Button title="Go back" onPress={() => navigation.goBack()}/>
+      <View style={{ flexDirection: 'row' }}>
+        <Image
+          source={{
+            uri:
+              'https://www.giallozafferano.it/images/ricette/219/21928/foto_hd/hd360x300.jpg',
+          }} style={{ width: 100, height: 100}}
+        />
+        <Text>Ciaociao</Text>
+      </View>
     </View>
   );
 }

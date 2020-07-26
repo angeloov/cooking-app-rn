@@ -26,7 +26,6 @@ class Recipe extends Component {
 
 const styles = StyleSheet.create({
   containter: {
-    flex: 1,
     flexDirection: 'column',
     alignItems: 'stretch',
     marginTop: 10,
@@ -50,10 +49,7 @@ const styles = StyleSheet.create({
     marginTop: 10,
     marginLeft: 8,
     marginRight: 8,
-    marginBottom: 50,
-    //flex: 1,
-    //justifyContent: 'center',
-    //alignItems: 'center',
+    marginBottom: 10,
   },
   innerContainer: {
     flexDirection: 'row',
@@ -62,7 +58,7 @@ const styles = StyleSheet.create({
   plateImage: {
     height: 100,
     width: 100,
-    marginLeft: 10,
+    borderRadius: 10
   },
   recipeTitle: {
     color: 'black',
