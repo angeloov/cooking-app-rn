@@ -1,27 +1,26 @@
 import React, {Component} from 'react';
-import {View, Text, StyleSheet, Image} from 'react-native';
+import {View, Text, StyleSheet, Image, TouchableHighlight} from 'react-native';
 
-class Recipe extends Component {
-  constructor() {
-    super();
-  }
-  render() {
-    return (
-      <View style={styles.containter}>
+export default function Recipe(props, {navigation}) {
+  return (
+    <View style={styles.containter}>
+      <TouchableHighlight
+        onPress={() => {
+          alert('Ciao');
+        }}
+        underlayColor="gray">
         <View style={styles.recipeContainer}>
-          <Text style={styles.recipeTitle}>{this.props.plateName}</Text>
+          <Text style={styles.recipeTitle}>{props.plateName}</Text>
           <View style={styles.innerContainer}>
-            <Image source={{uri: this.props.image}} style={styles.plateImage} />
+            <Image source={{uri: props.image}} style={styles.plateImage} />
             <View style={styles.recipeDescriptionView}>
-              <Text style={styles.recipeDescription}>
-                {this.props.description}
-              </Text>
+              <Text style={styles.recipeDescription}>{props.description}</Text>
             </View>
           </View>
         </View>
-      </View>
-    );
-  }
+      </TouchableHighlight>
+    </View>
+  );
 }
 
 const styles = StyleSheet.create({
@@ -58,7 +57,7 @@ const styles = StyleSheet.create({
   plateImage: {
     height: 100,
     width: 100,
-    borderRadius: 10
+    borderRadius: 10,
   },
   recipeTitle: {
     color: 'black',
@@ -77,5 +76,3 @@ const styles = StyleSheet.create({
     width: '70%',
   },
 });
-
-export default Recipe;

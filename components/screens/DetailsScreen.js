@@ -1,20 +1,31 @@
 import React from 'react';
 import {View, Text, StyleSheet, Button, Image} from 'react-native';
 
-import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
+const Stack = createStackNavigator();
 
-export default function DetailsScreen({navigation}) {
+
+export default function DetailsScreen() {
+  return (
+    <Stack.Navigator
+      screenOptions={{
+        headerStyle: {backgroundColor: '#2980b9'},
+        headerTintColor: 'white',
+        headerTitleStyle: {
+          fontWeight: 'bold',
+          fontFamily: 'Poppins-Regular',
+        },
+      }}>
+      <Stack.Screen name="Details" component={DetailsComponent} />
+    </Stack.Navigator>
+  );
+}
+
+function DetailsComponent() {
   return (
     <View style={styles.detailsView}>
-      <View style={{ flexDirection: 'row' }}>
-        <Image
-          source={{
-            uri:
-              'https://www.giallozafferano.it/images/ricette/219/21928/foto_hd/hd360x300.jpg',
-          }} style={{ width: 100, height: 100}}
-        />
-        <Text>Ciaociao</Text>
+      <View style={{flexDirection: 'row'}}>
+        <Text>Created by Angelo Voicu</Text>
       </View>
     </View>
   );
