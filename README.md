@@ -2,6 +2,6 @@
 
 Very simple template for a cooking app, made in React Native.
 
-Libraries used:
+**Libraries used:**
 - React Native
 - React Navigation
