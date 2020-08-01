@@ -5,7 +5,7 @@ import {createStackNavigator} from '@react-navigation/stack';
 const Stack = createStackNavigator();
 
 
-export default function DetailsScreen() {
+export default function SettingsScreen() {
   return (
     <Stack.Navigator
       screenOptions={{
@@ -16,14 +16,14 @@ export default function DetailsScreen() {
           fontFamily: 'Poppins-Regular',
         },
       }}>
-      <Stack.Screen name="Details" component={DetailsComponent} />
+      <Stack.Screen name="Settings" component={SettingsComponent} />
     </Stack.Navigator>
   );
 }
 
-function DetailsComponent() {
+function SettingsComponent() {
   return (
-    <View style={styles.detailsView}>
+    <View style={styles.settingsView}>
       <View style={{flexDirection: 'row'}}>
         <Text>Created by Angelo Voicu</Text>
       </View>
@@ -32,7 +32,7 @@ function DetailsComponent() {
 }
 
 const styles = StyleSheet.create({
-  detailsView: {
+  settingsView: {
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',

@@ -7,24 +7,23 @@ import {createStackNavigator} from '@react-navigation/stack';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 
 import HomeScreen from './components/screens/HomeScreen';
-import DetailsScreen from './components/screens/DetailsScreen';
+import SettingsScreen from './components/screens/SettingsScreen';
 
 const Tab = createBottomTabNavigator();
 
 const App = () => {
   return (
     <NavigationContainer>
-        <Tab.Navigator
-          initialRouteName="Home">
-          <Tab.Screen
-            name="Home"
-            component={HomeScreen}
-            options={{
-              headerTitleAlign: 'left',
-            }}
-          />
-          <Tab.Screen name="Details" component={DetailsScreen} />
-        </Tab.Navigator>
+      <Tab.Navigator initialRouteName="Home">
+        <Tab.Screen
+          name="Home"
+          component={HomeScreen}
+          options={{
+            headerTitleAlign: 'left',
+          }}
+        />
+        <Tab.Screen name="Settings" component={SettingsScreen} />
+      </Tab.Navigator>
     </NavigationContainer>
   );
 };
