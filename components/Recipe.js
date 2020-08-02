@@ -11,7 +11,9 @@ export default class Recipe extends Component {
       <View style={styles.containter}>
         <TouchableHighlight
           onPress={() => {
-            alert('Ciao');
+            this.props.navigation.navigate('RecipeScreen', {
+              plateName: this.props.plateName,
+            });
           }}
           underlayColor="gray">
           <View style={styles.recipeContainer}>

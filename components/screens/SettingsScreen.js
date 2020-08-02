@@ -4,7 +4,6 @@ import {View, Text, StyleSheet, Button, Image} from 'react-native';
 import {createStackNavigator} from '@react-navigation/stack';
 const Stack = createStackNavigator();
 
-
 export default function SettingsScreen() {
   return (
     <Stack.Navigator
@@ -25,6 +24,7 @@ function SettingsComponent() {
   return (
     <View style={styles.settingsView}>
       <View style={{flexDirection: 'row'}}>
+        <Text>Settings Page</Text>
         <Text>Created by Angelo Voicu</Text>
       </View>
     </View>

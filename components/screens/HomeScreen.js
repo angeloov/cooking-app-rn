@@ -13,13 +13,18 @@ import {
 } from 'react-native';
 
 import Recipe from '../Recipe';
+import RecipeScreen from './RecipeScreen';
 
 import {createStackNavigator} from '@react-navigation/stack';
+import {NavigationContainer} from '@react-navigation/native';
 const Stack = createStackNavigator();
 
-export default function HomeScreen() {
+export default function HomeScreen({route, navigation}) {
+  // const {plateName} = route.params;
+
   return (
     <Stack.Navigator
+      initialRouteName="Home"
       screenOptions={{
         headerStyle: {backgroundColor: '#2980b9'},
         headerTintColor: 'white',
@@ -32,6 +37,11 @@ export default function HomeScreen() {
         name="Home"
         component={HomeComponent}
         options={{headerTitleAlign: 'left'}}
+      />
+      <Stack.Screen
+        name="RecipeScreen"
+        component={RecipeScreen}
+        options={{title: "Recipe Page"}}
       />
     </Stack.Navigator>
   );
@@ -46,21 +56,20 @@ function HomeComponent({navigation}) {
           plateName="Spaghetti cacio e pepe"
           image="https://www.giallozafferano.it/images/ricette/219/21989/foto_hd/hd360x300.jpg"
           description="Il Cacio e pepe è un piatto caratteristico del Lazio. Gli ingredienti sono molto semplici."
+          navigation={navigation}
         />
 
         <Recipe
           plateName="Spaghetti alla carbonara"
           image="https://www.giallozafferano.it/images/ricette/219/21928/foto_hd/hd360x300.jpg"
           description="La ricetta degli spaghetti alla carbonara è tipica del Lazio ed è apprezzata in tutto il mondo."
+          navigation={navigation}
         />
         <Recipe
           plateName="Riso alla cantonese"
           image="https://www.giallozafferano.it/images/ricette/179/17990/foto_hd/hd360x300.jpg"
           description="È il più popolare tra i risi fritti cinesi e il piatto più conosciuto della cucina huaiyang in Occidente."
-        />
-        <Button
-          title="Click me"
-          onclick={() => console.log("Clicked")}
+          navigation={navigation}
         />
       </SafeAreaView>
     </View>
