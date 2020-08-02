@@ -37,7 +37,7 @@ export default function HomeScreen() {
   );
 }
 
-function HomeComponent() {
+function HomeComponent({navigation}) {
   return (
     <View>
       <StatusBar backgroundColor="#2980b9" barStyle="light-content" />
@@ -57,6 +57,10 @@ function HomeComponent() {
           plateName="Riso alla cantonese"
           image="https://www.giallozafferano.it/images/ricette/179/17990/foto_hd/hd360x300.jpg"
           description="È il più popolare tra i risi fritti cinesi e il piatto più conosciuto della cucina huaiyang in Occidente."
+        />
+        <Button
+          title="Click me"
+          onclick={() => console.log("Clicked")}
         />
       </SafeAreaView>
     </View>

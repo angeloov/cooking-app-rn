@@ -10,6 +10,7 @@ import HomeScreen from './components/screens/HomeScreen';
 import SettingsScreen from './components/screens/SettingsScreen';
 
 const Tab = createBottomTabNavigator();
+const Stack = createStackNavigator();
 
 const App = () => {
   return (
@@ -29,28 +30,3 @@ const App = () => {
 };
 
 export default App;
-/*
-<Tab.Navigator
-          initialRouteName="Home"
-          screenOptions={{
-            headerStyle: {backgroundColor: '#2980b9'},
-            headerTintColor: 'white',
-            headerTitleStyle: {
-              fontWeight: 'bold',
-              fontFamily: 'Poppins-Regular',
-            },
-          }}>
-          <Tab.Screen
-            name="Home"
-            component={HomeScreen}
-            options={{
-              headerTitleAlign: 'left',
-              headerRight: () => (
-                <Button
-                  onPress={() => alert('Bottone cliccato')}
-                  title="btn"
-                  color="#fff"
-                />
-              ),
-            }}
-          />*/
