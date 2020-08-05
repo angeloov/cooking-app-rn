@@ -1,0 +1,32 @@
+{
+  "0": {
+    "id": 0,
+    "name": "Spaghetti cacio e pepe",
+    "img_uri": "https://www.giallozafferano.it/images/ricette/219/21989/foto_hd/hd360x300.jpg",
+    "short_desc": "Il Cacio e pepe è un piatto caratteristico del Lazio. Gli ingredienti sono molto semplici."
+  },
+  "1": {
+    "id": 1,
+    "name": "Spaghetti alla carbonara",
+    "img_uri": "https://www.giallozafferano.it/images/ricette/219/21928/foto_hd/hd360x300.jpg",
+    "short_desc": "La ricetta degli spaghetti alla carbonara è tipica del Lazio ed è apprezzata in tutto il mondo."
+  },
+  "2": {
+    "id": 2,
+    "name": "Riso alla cantonese",
+    "img_uri": "https://www.giallozafferano.it/images/ricette/179/17990/foto_hd/hd360x300.jpg",
+    "short_desc": "È il più popolare tra i risi fritti cinesi e il piatto più conosciuto della cucina huaiyang in Occidente."
+  },
+  "3": {
+    "id": 3,
+    "name": "Ricetta 4",
+    "img_uri": "https://www.giallozafferano.it/images/ricette/179/17990/foto_hd/hd360x300.jpg",
+    "short_desc": "È il più popolare tra i risi fritti cinesi e il piatto più conosciuto della cucina huaiyang in Occidente."
+  },
+  "4": {
+    "id": 4,
+    "name": "Ricetta 5",
+    "img_uri": "https://www.giallozafferano.it/images/ricette/179/17990/foto_hd/hd360x300.jpg",
+    "short_desc": "È il più popolare tra i risi fritti cinesi e il piatto più conosciuto della cucina huaiyang in Occidente."
+  }
+}

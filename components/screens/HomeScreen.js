@@ -10,10 +10,12 @@ import {
   Appearance,
   Button,
   TouchableHighlight,
+  FlatList,
 } from 'react-native';
 
 import Recipe from '../Recipe';
 import RecipeScreen from './RecipeScreen';
+import * as recipes from '../../recipes/recipes.json';
 
 import {createStackNavigator} from '@react-navigation/stack';
 import {NavigationContainer} from '@react-navigation/native';
@@ -39,18 +41,59 @@ export default function HomeScreen() {
       <Stack.Screen
         name="RecipeScreen"
         component={RecipeScreen}
-        options={{title: "Recipe"}}
+        options={{title: 'Recipe'}}
       />
     </Stack.Navigator>
   );
 }
 
 function HomeComponent({navigation}) {
+  let recipesList = [];
+  let objLen = Object.keys(recipes).length - 1;
+
+  for (let i = 0; i < objLen; i++) {
+    recipesList.push({
+      id: i,
+      name: recipes[i].name,
+      img_uri: recipes[i].img_uri,
+      short_desc: recipes[i].short_desc,
+    });
+  }
+
+  const renderItem = ({item}) => (
+    <Recipe
+      plateName={item.name}
+      image={item.img_uri}
+      description={item.short_desc}
+      navigation={navigation}
+    />
+  );
+
   return (
-    <View>
+    <View style={{flex: 1}}>
       <StatusBar backgroundColor="#2980b9" barStyle="light-content" />
       <SafeAreaView style={styles.recipesContainer}>
-        <Recipe
+        <FlatList
+           contentContainerStyle={{ paddingBottom: 20}}
+          data={recipesList}
+          renderItem={renderItem}
+          keyExtractor={(item) => item.id}
+        />
+      </SafeAreaView>
+    </View>
+  );
+}
+
+const styles = StyleSheet.create({
+  recipesContainer: {
+    flex: 1,
+    height: '85%',
+    marginTop: 15,
+  },
+});
+
+/*
+<Recipe
           plateName="Spaghetti cacio e pepe"
           image="https://www.giallozafferano.it/images/ricette/219/21989/foto_hd/hd360x300.jpg"
           description="Il Cacio e pepe è un piatto caratteristico del Lazio. Gli ingredienti sono molto semplici."
@@ -69,14 +112,5 @@ function HomeComponent({navigation}) {
           description="È il più popolare tra i risi fritti cinesi e il piatto più conosciuto della cucina huaiyang in Occidente."
           navigation={navigation}
         />
-      </SafeAreaView>
-    </View>
-  );
-}
 
-const styles = StyleSheet.create({
-  recipesContainer: {
-    height: '85%',
-    marginTop: 15,
-  },
-});
+*/
