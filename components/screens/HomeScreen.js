@@ -19,9 +19,7 @@ import {createStackNavigator} from '@react-navigation/stack';
 import {NavigationContainer} from '@react-navigation/native';
 const Stack = createStackNavigator();
 
-export default function HomeScreen({route, navigation}) {
-  // const {plateName} = route.params;
-
+export default function HomeScreen() {
   return (
     <Stack.Navigator
       initialRouteName="Home"
@@ -41,7 +39,7 @@ export default function HomeScreen({route, navigation}) {
       <Stack.Screen
         name="RecipeScreen"
         component={RecipeScreen}
-        options={{title: "Recipe Page"}}
+        options={{title: "Recipe"}}
       />
     </Stack.Navigator>
   );

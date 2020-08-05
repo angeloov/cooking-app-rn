@@ -1,21 +1,38 @@
 import 'react-native-gesture-handler';
-import React, {Component} from 'react';
-import {SafeAreaView, View, Text, Image, Button} from 'react-native';
+import React from 'react';
+import Icon from 'react-native-vector-icons/Ionicons';
 
 import {NavigationContainer} from '@react-navigation/native';
-import {createStackNavigator} from '@react-navigation/stack';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 
 import HomeScreen from './components/screens/HomeScreen';
 import SettingsScreen from './components/screens/SettingsScreen';
 
 const Tab = createBottomTabNavigator();
-const Stack = createStackNavigator();
 
 const App = () => {
   return (
     <NavigationContainer>
-      <Tab.Navigator initialRouteName="Home">
+      <Tab.Navigator
+        initialRouteName="Home"
+        screenOptions={({route}) => ({
+          tabBarIcon: ({focused, color, size}) => {
+            let iconName;
+
+            if (route.name === 'Home') {
+              iconName = focused ? 'home' : 'home-outline';
+            } else if (route.name === 'Settings') {
+              iconName = focused ? 'settings' : 'settings-outline';
+            }
+
+            // Return icon component with the correct icon
+            return <Icon name={iconName} size={size} color={color} />;
+          },
+        })}
+        tabBarOptions={{
+          activeTintColor: '#2980b9',
+          inactiveTintColor: 'gray',
+        }}>
         <Tab.Screen
           name="Home"
           component={HomeScreen}

@@ -1,5 +1,6 @@
-import React from 'react';
+import React, {Component} from 'react';
 import {View, Text, StyleSheet, Button, Image} from 'react-native';
+import Video from 'react-native-video';
 
 import {createStackNavigator} from '@react-navigation/stack';
 const Stack = createStackNavigator();
@@ -20,15 +21,22 @@ export default function SettingsScreen() {
   );
 }
 
-function SettingsComponent() {
-  return (
-    <View style={styles.settingsView}>
-      <View style={{flexDirection: 'row'}}>
-        <Text>Settings Page</Text>
-        <Text>Created by Angelo Voicu</Text>
+class SettingsComponent extends Component {
+  constructor() {
+    super();
+  }
+  render() {
+    return (
+      <View style={styles.settingsView}>
+        <View>
+          <Text>Settings Page</Text>
+        </View>
+        <View>
+          <Text>Developed by Angelo Voicu</Text>
+        </View>
       </View>
-    </View>
-  );
+    );
+  }
 }
 
 const styles = StyleSheet.create({

@@ -15,7 +15,7 @@ export default class Recipe extends Component {
               plateName: this.props.plateName,
             });
           }}
-          underlayColor="gray">
+          underlayColor="#bdc3c7">
           <View style={styles.recipeContainer}>
             <Text style={styles.recipeTitle}>{this.props.plateName}</Text>
             <View style={styles.innerContainer}>
@@ -45,15 +45,14 @@ const styles = StyleSheet.create({
     marginRight: 8,
     marginBottom: 10,
     borderRadius: 15,
-    borderColor: 'black',
     backgroundColor: '#fff',
-    shadowColor: '#000',
+    shadowColor: '#3754AA',
     shadowOffset: {
       width: 0,
-      height: 2,
+      height: 6,
     },
-    shadowOpacity: 0.3,
-    shadowRadius: 4.65,
+    shadowOpacity: 0.25,
+    shadowRadius: 8,
 
     elevation: 8,
   },

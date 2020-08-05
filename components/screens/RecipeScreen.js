@@ -1,25 +1,48 @@
 import React from 'react';
 import {View, Text, StyleSheet} from 'react-native';
 
-import {NavigationContainer} from '@react-navigation/native';
-import {createStackNavigator} from '@react-navigation/stack';
-const Stack = createStackNavigator();
-
 export default function RecipeScreen({route, navigation}) {
   const {plateName} = route.params;
   return (
-    <View>
-      <Text style={styles.recipeTitle}>{plateName}</Text>
-    </View>
+    <>
+      <View style={{alignItems: 'center'}}>
+        <View>
+          <Text style={styles.recipeTitle}>{plateName}</Text>
+          <View>
+            <View style={styles.videoView}></View>
+          </View>
+        </View>
+      </View>
+      <View style={styles.finishedPlateView}>
+        <Text style={styles.finishedPlateTitle}>Piatto finito:</Text>
+      </View>
+    </>
   );
 }
 
 let styles = StyleSheet.create({
   recipeTitle: {
-    marginTop: 10,
+    marginTop: 25,
+    marginBottom: 25,
     color: 'black',
+    fontFamily: 'Poppins-ExtraBold',
     fontSize: 24,
-    // fontFamily: 'Poppins-Bold',
     textAlign: 'center',
+  },
+  videoView: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    width: 370,
+    height: 200,
+    borderRadius: 15,
+    backgroundColor: 'gray',
+  },
+  finishedPlateView: {
+    marginTop: 35,
+    marginLeft: 25,
+  },
+  finishedPlateTitle: {
+    fontFamily: 'Poppins-Bold',
+    fontSize: 17,
   },
 });
