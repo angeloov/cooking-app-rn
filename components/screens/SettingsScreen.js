@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import {View, Text, StyleSheet, Button, Image} from 'react-native';
-import Video from 'react-native-video';
 
 import {createStackNavigator} from '@react-navigation/stack';
 const Stack = createStackNavigator();

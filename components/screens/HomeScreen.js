@@ -18,7 +18,6 @@ import RecipeScreen from './RecipeScreen';
 import * as recipes from '../../recipes/recipes.json';
 
 import {createStackNavigator} from '@react-navigation/stack';
-import {NavigationContainer} from '@react-navigation/native';
 const Stack = createStackNavigator();
 
 export default function HomeScreen() {
@@ -74,10 +73,10 @@ function HomeComponent({navigation}) {
       <StatusBar backgroundColor="#2980b9" barStyle="light-content" />
       <SafeAreaView style={styles.recipesContainer}>
         <FlatList
-           contentContainerStyle={{ paddingBottom: 20}}
+          contentContainerStyle={{paddingBottom: 20}}
           data={recipesList}
           renderItem={renderItem}
-          keyExtractor={(item) => item.id}
+          keyExtractor={(item) => item.id.toString()}
         />
       </SafeAreaView>
     </View>
@@ -91,26 +90,3 @@ const styles = StyleSheet.create({
     marginTop: 15,
   },
 });
-
-/*
-<Recipe
-          plateName="Spaghetti cacio e pepe"
-          image="https://www.giallozafferano.it/images/ricette/219/21989/foto_hd/hd360x300.jpg"
-          description="Il Cacio e pepe è un piatto caratteristico del Lazio. Gli ingredienti sono molto semplici."
-          navigation={navigation}
-        />
-
-        <Recipe
-          plateName="Spaghetti alla carbonara"
-          image="https://www.giallozafferano.it/images/ricette/219/21928/foto_hd/hd360x300.jpg"
-          description="La ricetta degli spaghetti alla carbonara è tipica del Lazio ed è apprezzata in tutto il mondo."
-          navigation={navigation}
-        />
-        <Recipe
-          plateName="Riso alla cantonese"
-          image="https://www.giallozafferano.it/images/ricette/179/17990/foto_hd/hd360x300.jpg"
-          description="È il più popolare tra i risi fritti cinesi e il piatto più conosciuto della cucina huaiyang in Occidente."
-          navigation={navigation}
-        />
-
-*/
