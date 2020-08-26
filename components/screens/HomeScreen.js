@@ -17,7 +17,9 @@ import Recipe from '../Recipe';
 import RecipeScreen from './RecipeScreen';
 import * as recipes from '../../recipes/recipes.json';
 
-import {createStackNavigator} from '@react-navigation/stack';
+import VideoScreen from './VideoScreen';
+
+import { createStackNavigator } from '@react-navigation/stack';
 const Stack = createStackNavigator();
 
 export default function HomeScreen() {
@@ -25,7 +27,7 @@ export default function HomeScreen() {
     <Stack.Navigator
       initialRouteName="Home"
       screenOptions={{
-        headerStyle: {backgroundColor: '#2980b9'},
+        headerStyle: { backgroundColor: '#2980b9' },
         headerTintColor: 'white',
         headerTitleStyle: {
           fontWeight: 'bold',
@@ -35,18 +37,23 @@ export default function HomeScreen() {
       <Stack.Screen
         name="Home"
         component={HomeComponent}
-        options={{headerTitleAlign: 'left'}}
+        options={{ headerTitleAlign: 'left' }}
       />
       <Stack.Screen
         name="RecipeScreen"
         component={RecipeScreen}
-        options={{title: 'Recipe'}}
+        options={{ title: 'Recipe' }}
+      />
+      <Stack.Screen
+        name="VideoScreen"
+        component={VideoScreen}
+        options={{ title: 'VideoScreen' }}
       />
     </Stack.Navigator>
   );
 }
 
-function HomeComponent({navigation}) {
+function HomeComponent({ navigation }) {
   let recipesList = [];
   let objLen = Object.keys(recipes).length - 1;
 
@@ -59,7 +66,7 @@ function HomeComponent({navigation}) {
     });
   }
 
-  const renderItem = ({item}) => (
+  const renderItem = ({ item }) => (
     <Recipe
       plateName={item.name}
       image={item.img_uri}
@@ -69,15 +76,16 @@ function HomeComponent({navigation}) {
   );
 
   return (
-    <View style={{flex: 1}}>
+    <View style={{ flex: 1 }}>
       <StatusBar backgroundColor="#2980b9" barStyle="light-content" />
       <SafeAreaView style={styles.recipesContainer}>
         <FlatList
-          contentContainerStyle={{paddingBottom: 20}}
+          contentContainerStyle={{ paddingBottom: 20 }}
           data={recipesList}
           renderItem={renderItem}
           keyExtractor={(item) => item.id.toString()}
         />
+        <Button onPress={() => navigation.navigate('VideoScreen')} title="Go to video screen" />
       </SafeAreaView>
     </View>
   );

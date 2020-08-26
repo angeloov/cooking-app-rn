@@ -1,16 +1,13 @@
 import React from 'react';
-import {View, Text, StyleSheet} from 'react-native';
+import { View, Text, StyleSheet } from 'react-native';
 
-export default function RecipeScreen({route, navigation}) {
-  const {plateName} = route.params;
+export default function RecipeScreen({ route, navigation }) {
+  const { plateName } = route.params;
   return (
     <>
-      <View style={{alignItems: 'center'}}>
+      <View style={{ alignItems: 'center' }}>
         <View>
           <Text style={styles.recipeTitle}>{plateName}</Text>
-          <View>
-            <View style={styles.videoView}></View>
-          </View>
         </View>
       </View>
       <View style={styles.finishedPlateView}>

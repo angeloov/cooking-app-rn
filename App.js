@@ -2,8 +2,8 @@ import 'react-native-gesture-handler';
 import React from 'react';
 import Icon from 'react-native-vector-icons/Ionicons';
 
-import {NavigationContainer} from '@react-navigation/native';
-import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
+import { NavigationContainer } from '@react-navigation/native';
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
 import HomeScreen from './components/screens/HomeScreen';
 import SettingsScreen from './components/screens/SettingsScreen';
@@ -15,8 +15,8 @@ const App = () => {
     <NavigationContainer>
       <Tab.Navigator
         initialRouteName="Home"
-        screenOptions={({route}) => ({
-          tabBarIcon: ({focused, color, size}) => {
+        screenOptions={({ route }) => ({
+          tabBarIcon: ({ focused, color, size }) => {
             let iconName;
 
             if (route.name === 'Home') {
