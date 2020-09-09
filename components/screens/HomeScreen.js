@@ -44,11 +44,6 @@ export default function HomeScreen() {
         component={RecipeScreen}
         options={{ title: 'Recipe' }}
       />
-      <Stack.Screen
-        name="VideoScreen"
-        component={VideoScreen}
-        options={{ title: 'VideoScreen' }}
-      />
     </Stack.Navigator>
   );
 }
@@ -85,7 +80,6 @@ function HomeComponent({ navigation }) {
           renderItem={renderItem}
           keyExtractor={(item) => item.id.toString()}
         />
-        <Button onPress={() => navigation.navigate('VideoScreen')} title="Go to video screen" />
       </SafeAreaView>
     </View>
   );
