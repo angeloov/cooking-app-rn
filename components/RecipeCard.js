@@ -8,7 +8,8 @@ export default function RecipeCard({ src }) {
         source={{ uri: src }}
         style={{
           marginTop: 16,
-          width: '80%',
+          marginRight: 10,
+          width: 300,
           height: 200,
           borderRadius: 16,
         }}

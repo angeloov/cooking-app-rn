@@ -14,6 +14,7 @@ export default function SettingsScreen() {
           fontWeight: 'bold',
           fontFamily: 'Poppins-Regular',
         },
+        headerTitleAlign: 'left'
       }}>
       <Stack.Screen name="Settings" component={SettingsComponent} />
     </Stack.Navigator>

@@ -36,11 +36,11 @@ const App = () => {
         <Tab.Screen
           name="Home"
           component={HomeScreen}
-          options={{
-            headerTitleAlign: 'left',
-          }}
         />
-        <Tab.Screen name="Settings" component={SettingsScreen} />
+        <Tab.Screen
+          name="Settings"
+          component={SettingsScreen}
+        />
       </Tab.Navigator>
     </NavigationContainer>
   );

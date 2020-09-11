@@ -13,6 +13,8 @@ export default class Recipe extends Component {
           onPress={() => {
             this.props.navigation.navigate('RecipeScreen', {
               plateName: this.props.plateName,
+              images: this.props.images,
+              videoUrl: this.props.videoUrl
             });
           }}
           underlayColor="#bdc3c7">

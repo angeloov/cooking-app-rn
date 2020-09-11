@@ -17,8 +17,6 @@ import Recipe from '../Recipe';
 import RecipeScreen from './RecipeScreen';
 import * as recipes from '../../recipes/recipes.json';
 
-import VideoScreen from './VideoScreen';
-
 import { createStackNavigator } from '@react-navigation/stack';
 const Stack = createStackNavigator();
 
@@ -57,7 +55,9 @@ function HomeComponent({ navigation }) {
       id: i,
       name: recipes[i].name,
       img_uri: recipes[i].img_uri,
+      video_uri: recipes[i].video_uri,
       short_desc: recipes[i].short_desc,
+      images: recipes[i].images
     });
   }
 
@@ -66,6 +66,8 @@ function HomeComponent({ navigation }) {
       plateName={item.name}
       image={item.img_uri}
       description={item.short_desc}
+      images={item.images}
+      videoUrl={item.video_uri}
       navigation={navigation}
     />
   );

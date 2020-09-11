@@ -3,41 +3,36 @@ import { View, Text, StyleSheet, FlatList } from 'react-native';
 import VideoComponent from '../VideoComponent';
 import RecipeCard from '../RecipeCard';
 
-const DATA = [
-  {
-    img: 'https://cdn.cook.stbm.it/thumbnails/ricette/1/1259/hd750x421.jpg',
-    id: 1,
-  },
-  {
-    img: 'https://cdn.cook.stbm.it/thumbnails/ricette/1/1259/hd750x421.jpg',
-    id: 2,
-  },
-  {
-    img: 'https://cdn.cook.stbm.it/thumbnails/ricette/1/1259/hd750x421.jpg',
-    id: 3,
-  },
-];
-
 export default function RecipeScreen({ route, navigation }) {
   const { plateName } = route.params;
+  const { images } = route.params;
+  const { videoUrl } = route.params;
+
   const renderItem = ({ item }) => <RecipeCard src={item.img} />;
   return (
     <>
-      <View style={{ alignItems: 'center' }}>
-        <View>
-          <Text style={styles.recipeTitle}>{plateName}</Text>
-          <VideoComponent src="https://banzai-pmd-meride-tv.akamaized.net/amets/giallozafferano/2019/12/oosyer/HD/1200_oosyer.m3u8" />
-        </View>
-      </View>
-      <View style={styles.finishedPlateView}>
-        <Text style={styles.finishedPlateTitle}>Piatto finito:</Text>
-
-        <FlatList
-          data={DATA}
-          renderItem={renderItem}
-          keyExtractor={(item) => item.id}
-        />
-      </View>
+      <FlatList
+        ListHeaderComponent={
+          <>
+            <View style={{ alignItems: 'center' }}>
+              <View>
+                <Text style={styles.recipeTitle}>{plateName}</Text>
+                <VideoComponent src={videoUrl} />
+              </View>
+            </View>
+            <View style={styles.bottomPart}>
+              <Text style={styles.finishedPlateTitle}>Piatto finito:</Text>
+              <FlatList
+                data={images}
+                renderItem={renderItem}
+                keyExtractor={(item) => item.id.toString()}
+                horizontal={true}
+                style={{ marginBottom: 25 }}
+              />
+            </View>
+          </>
+        }
+      />
     </>
   );
 }
@@ -52,20 +47,13 @@ let styles = StyleSheet.create({
     textAlign: 'center',
     position: 'relative',
   },
-  videoView: {
-    justifyContent: 'center',
-    alignItems: 'center',
-    width: 370,
-    height: 200,
-    borderRadius: 15,
-    backgroundColor: 'gray',
-  },
-  finishedPlateView: {
+  bottomPart: {
     marginTop: 35,
-    marginLeft: 25,
+    marginLeft: 16,
   },
   finishedPlateTitle: {
     fontFamily: 'Poppins-Bold',
+    textDecorationLine: 'underline',
     fontSize: 17,
   },
 });

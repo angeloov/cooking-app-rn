@@ -3,30 +3,105 @@
     "id": 0,
     "name": "Spaghetti cacio e pepe",
     "img_uri": "https://www.giallozafferano.it/images/ricette/219/21989/foto_hd/hd360x300.jpg",
-    "short_desc": "Il Cacio e pepe è un piatto caratteristico del Lazio. Gli ingredienti sono molto semplici."
+    "video_uri": "https://banzai-pmd-meride-tv.akamaized.net/amets/giallozafferano/2019/12/oosyer/HD/1200_oosyer.m3u8",
+    "short_desc": "Il Cacio e pepe è un piatto caratteristico del Lazio. Gli ingredienti sono molto semplici.",
+    "images": [
+      {
+        "img": "https://cdn.cook.stbm.it/thumbnails/ricette/1/1259/hd750x421.jpg",
+        "id": 1
+      },
+      {
+        "img": "https://primochef.it/wp-content/uploads/2019/09/SH_cacio_e_pepe-1021x580.jpg",
+        "id": 2
+      },
+      {
+        "img": "https://dpv87w1mllzh1.cloudfront.net/alitalia_discover/attachments/data/000/002/570/original/pasta-cacio-e-pepe-la-ricetta-tradizionale-1920x1080.jpg?1567075321",
+        "id": 3
+      }
+    ]
   },
   "1": {
     "id": 1,
     "name": "Spaghetti alla carbonara",
     "img_uri": "https://www.giallozafferano.it/images/ricette/219/21928/foto_hd/hd360x300.jpg",
-    "short_desc": "La ricetta degli spaghetti alla carbonara è tipica del Lazio ed è apprezzata in tutto il mondo."
+    "video_uri": "https://banzai-pmd-meride-tv.akamaized.net/amets/giallozafferano/2019/12/3cg7o3/HD/1200_3cg7o3.m3u8",
+    "short_desc": "La ricetta degli spaghetti alla carbonara è tipica del Lazio ed è apprezzata in tutto il mondo.",
+    "images": [
+      {
+        "img": "https://www.tavolartegusto.it/wp/wp-content/uploads/2020/03/Carbonara-Spaghetti-alla-carbonara-Ricetta-Carbonara-1280x720.jpg",
+        "id": 1
+      },
+      {
+        "img": "https://www.informacibo.it/wp-content/uploads/2018/04/carbonara.jpg",
+        "id": 2
+      },
+      {
+        "img": "https://cibamus.com/wp-content/uploads/2020/04/ricetta-originale-della-carbonara-480x480.jpg",
+        "id": 3
+      }
+    ]
   },
   "2": {
     "id": 2,
     "name": "Riso alla cantonese",
     "img_uri": "https://www.giallozafferano.it/images/ricette/179/17990/foto_hd/hd360x300.jpg",
-    "short_desc": "È il più popolare tra i risi fritti cinesi e il piatto più conosciuto della cucina huaiyang in Occidente."
+    "video_uri": "https://banzai-pmd-meride-tv.akamaized.net/amets/giallozafferano/2017/08/ombcg9/HD/1200_ombcg9.m3u8",
+    "short_desc": "È il più popolare tra i risi fritti cinesi e il piatto più conosciuto della cucina huaiyang in Occidente.",
+    "images": [
+      {
+        "img": "https://www.tavolartegusto.it/wp/wp-content/uploads/2019/05/Riso-alla-cantonese-Ricetta-Riso-cantonese.jpg",
+        "id": 1
+      },
+      {
+        "img": "https://www.misya.info/wp-content/uploads/2016/06/riso-alla-cantonese-1.jpg",
+        "id": 2
+      },
+      {
+        "img": "https://blog.giallozafferano.it/graficareincucina/wp-content/uploads/2017/05/Riso-alla-cantonese-evidenza.jpg",
+        "id": 3
+      }
+    ]
   },
   "3": {
     "id": 3,
-    "name": "Ricetta 4",
-    "img_uri": "https://www.giallozafferano.it/images/ricette/179/17990/foto_hd/hd360x300.jpg",
-    "short_desc": "È il più popolare tra i risi fritti cinesi e il piatto più conosciuto della cucina huaiyang in Occidente."
+    "name": "Spaghetti all'Amatriciana",
+    "img_uri": "https://www.giallozafferano.it/images/ricette/219/21923/foto_hd/hd360x301.jpg",
+    "video_uri": "https://banzai-pmd-meride-tv.akamaized.net/amets/giallozafferano/2019/11/xsvn72/HD/1200_xsvn72.m3u8",
+    "short_desc": "Gli spaghetti all'amatriciana sono un primo piatto simbolo della tradizione culinaria laziale.",
+    "images": [
+      {
+        "img": "https://www.cucchiaio.it/content/cucchiaio/it/ricette/2014/04/ricetta-bucatini-allamatriciana/jcr:content/imagePreview.img10.jpg/1538495120315.jpg",
+        "id": 1
+      },
+      {
+        "img": "https://www.ricettedalmondo.it/images/foto-ricette/b/122-bucatini-alla-amatriciana.jpg",
+        "id": 2
+      },
+      {
+        "img": "https://images.lacucinaitaliana.it/wp-content/uploads/2015/07/21172910/bucatini-all-amatriciana-ricetta1.jpg",
+        "id": 3
+      }
+    ]
   },
   "4": {
     "id": 4,
-    "name": "Ricetta 5",
-    "img_uri": "https://www.giallozafferano.it/images/ricette/179/17990/foto_hd/hd360x300.jpg",
-    "short_desc": "È il più popolare tra i risi fritti cinesi e il piatto più conosciuto della cucina huaiyang in Occidente."
+    "name": "Polpette al sugo",
+    "img_uri": "https://www.giallozafferano.it/images/ricette/166/16604/foto_hd/hd360x300.jpg",
+    "video_uri": "https://banzai-pmd-meride-tv.akamaized.net/amets/giallozafferano/2019/11/e2u6yr/HD/1200_e2u6yr.m3u8",
+    "short_desc": "Polpette al sugo, ricetta classica e semplice per un secondo di carne tradizionale insuperabile.",
+    "images": [
+      {
+        "img": "https://www.cucchiaio.it/content/cucchiaio/it/ricette/2018/11/polpette-al-sugo/jcr:content/header-par/image-single.img10.jpg/1541764256677.jpg",
+        "id": 1
+      },
+      {
+        "img": "https://www.sfizioso.it/wp-content/uploads/2020/01/polpette-al-sugo-1-600x400.jpg",
+        "id": 2
+      },
+      {
+        "img": "https://tempodicottura.it/wp-content/uploads/2019/09/MG_5565.jpg",
+        "id": 3
+      }
+    ]
   }
 }
