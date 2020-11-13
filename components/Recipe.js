@@ -2,8 +2,8 @@ import React, {Component} from 'react';
 import {View, Text, StyleSheet, Image, TouchableHighlight} from 'react-native';
 
 export default class Recipe extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
   }
 
   render() {
